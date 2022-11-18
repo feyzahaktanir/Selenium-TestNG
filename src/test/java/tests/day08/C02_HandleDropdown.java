@@ -10,7 +10,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import javax.swing.plaf.TableHeaderUI;
 import java.time.Duration;
+import java.util.List;
 
 public class C02_HandleDropdown {
 
@@ -25,7 +27,7 @@ public class C02_HandleDropdown {
      }
 
     @Test
-    public void dropdownTesti(){
+    public void dropdownTesti() throws InterruptedException {
          driver.get("https://www.amazon.com");
          //DropDown'da varolan seçeneklerden birini seçmek için
         //1.Adım : dropdown webelementini locate edip bir değişkene atıyoruz.
@@ -43,6 +45,19 @@ public class C02_HandleDropdown {
         // eğer seçtiğimiz option değerini yazdırmak istersek
         System.out.println(select.getFirstSelectedOption().getText()); //Baby
 
+        Thread.sleep(3000);
+        // ben dropdown'da isimle aratmak istiyorsam
+        select.selectByVisibleText("Deals");
+
+        Thread.sleep(3000);
+        //incele'de dropdown select'inin child'ı olan option value ile seçtirme
+        select.selectByValue("search-alias=movies-tv-intl-ship"); //Movie & TV
+
+        // bütün listeyi yazdırma
+        List<WebElement> optionList = select.getOptions();
+        for (WebElement each: optionList){
+            System.out.println(each.getText());
+        }
     }
 
 
