@@ -80,7 +80,7 @@ public class C02_SoftAssertion {
         String expectedOptionListString = "\"Select One\", \"Australia (dollar)\", \"Canada (dollar)\", \"Switzerland (franc)\", \"China (yuan)\", \"Denmark (krone)\", \"Eurozone (euro)\", \"Great Britain (pound)\", \"Hong Kong (dollar)\", \"Japan (yen)\", \"Mexico (peso)\", \"Norway (krone)\", \"New Zealand (dollar)\", \"Sweden (krona)\", \"Singapore (dollar)\", \"Thailand (baht)\"";
         softAssert.assertEquals(actualOptionListString,expectedOptionListString);
 
-        softAssert.assertAll();
+        softAssert.assertAll(); //testlerden failed olanı varsa bu komuttan sonrası çalışmaz.
     }
 
 
