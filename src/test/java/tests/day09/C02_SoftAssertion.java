@@ -81,6 +81,8 @@ public class C02_SoftAssertion {
         softAssert.assertEquals(actualOptionListString,expectedOptionListString);
 
         softAssert.assertAll(); //testlerden failed olanı varsa bu komuttan sonrası çalışmaz.
+
+        System.out.println("Çalışmayan bir test mevcutsa, assertAll'dan sonrası çalışmaz.");
     }
 
 
