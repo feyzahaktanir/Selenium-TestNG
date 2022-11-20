@@ -49,7 +49,7 @@ public class C02_SoftAssertion {
         driver.findElement(By.id("pay_bills_link")).click();
 
         // 7. "Purcase Foreign Currensy" tuşuna basın
-        driver.findElement(By.linkText("#ui-tabs-3")).click();
+        driver.findElement(By.xpath("//a[@href='#ui-tabs-3']")).click();
 
         // 8. "Currency" dropdown menüsünden Eurozone'u seçin.
         WebElement ddElement = driver.findElement(By.id("pc_currency"));
@@ -62,17 +62,23 @@ public class C02_SoftAssertion {
         SoftAssert softAssert = new SoftAssert();
 
         String actualword = select.getFirstSelectedOption().getText();
-        String expectedword = "Eurozone (Euro)";
+        String expectedword = "Eurozone (euro)";
 
         softAssert.assertEquals(actualword, expectedword);
 
         // 10. soft assert kullanarak dropdown menüsünden şu seçenekleri olduğunu test edin:
-        // "Select One", "Australia (dollar)", "Canada (dollar)", "Switzerland (dollar)", "China (yuan)", "Denmark (krone)", "Eurozone (euro)", "Great Britain (pound)",
+        // "Select One", "Australia (dollar)", "Canada (dollar)", "Switzerland (franc)", "China (yuan)", "Denmark (krone)", "Eurozone (euro)", "Great Britain (pound)",
         // "Hong Kong (dollar)", "Japan (yen)", "Mexico (peso)", "Norway (krone)", "New Zealand (dollar)", "Sweden (krona)", "Singapore (dollar)", "Thailand (baht)"
         List<WebElement> optionList = select.getOptions();
-        List<String> stringList = "Select One", "Australia (dollar)", "Canada (dollar)", "Switzerland (dollar)", "China (yuan)", "Denmark (krone)", "Eurozone (euro)", "Great Britain (pound)", "Hong Kong (dollar)", "Japan (yen)", "Mexico (peso)", "Norway (krone)", "New Zealand (dollar)", "Sweden (krona)", "Singapore (dollar)", "Thailand (baht)";
+        String actualOptionListString = "";
 
+        for (WebElement each: optionList){
+            actualOptionListString += "\"" + each.getText() + "\", ";
+        }
 
+        actualOptionListString = actualOptionListString.substring(0,actualOptionListString.length()-2);
+        String expectedOptionListString = "\"Select One\", \"Australia (dollar)\", \"Canada (dollar)\", \"Switzerland (franc)\", \"China (yuan)\", \"Denmark (krone)\", \"Eurozone (euro)\", \"Great Britain (pound)\", \"Hong Kong (dollar)\", \"Japan (yen)\", \"Mexico (peso)\", \"Norway (krone)\", \"New Zealand (dollar)\", \"Sweden (krona)\", \"Singapore (dollar)\", \"Thailand (baht)\"";
+        softAssert.assertEquals(actualOptionListString,expectedOptionListString);
 
         softAssert.assertAll();
     }
