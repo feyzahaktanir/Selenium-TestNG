@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 9 - SoftAssert">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/C01_Alerts.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 10 - Alerts">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/C02_BasicAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C01_Alerts.sendKeysAlert">
+  <component name="RunManager" selected="TestNG.C02_BasicAuthentication">
     <configuration name="C01_Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -93,16 +93,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_BasicAuthentication" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C02_SoftAssertion" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C02_BasicAuthentication" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_BasicAuthentication" />
         <item itemvalue="TestNG.C01_Alerts.sendKeysAlert" />
         <item itemvalue="TestNG.C01_Alerts" />
         <item itemvalue="TestNG.C01_Alerts.acceptAllert" />
         <item itemvalue="TestNG.C03_SoftAssertion" />
-        <item itemvalue="TestNG.C02_SoftAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668967171802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenium Ders 10 - Alerts">
+      <created>1669019556205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669019556206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +199,7 @@
     <MESSAGE value="Selenium Ders 8 - TestNG Priority" />
     <MESSAGE value="Selenium Ders 9 - Soft Assetion" />
     <MESSAGE value="Selenium Ders 9 - SoftAssert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 9 - SoftAssert" />
+    <MESSAGE value="Selenium Ders 10 - Alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 10 - Alerts" />
   </component>
 </project>
