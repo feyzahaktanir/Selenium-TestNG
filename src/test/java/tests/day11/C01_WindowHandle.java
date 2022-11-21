@@ -74,12 +74,9 @@ public class C01_WindowHandle {
         System.out.println(whFacebook);
         System.out.println(handleValues);
 
-//        driver.switchTo().window(whFacebook);
-//        String url = driver.getCurrentUrl();
-//        Assert.assertEquals(url,"https://www.facebook.com");
-
-
-
+        driver.switchTo().window(whFacebook);
+        String url = driver.getCurrentUrl();
+        Assert.assertEquals(url,"https://www.facebook.com/");
 
     }
 

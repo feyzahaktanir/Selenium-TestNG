@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 9 - SoftAssert">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 11 - Window Handle">
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11/C01_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11/C01_WindowHandle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C01_WindowHandle">
+  <component name="RunManager" selected="TestNG.C01_WindowHandle.handleWindows">
     <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -57,17 +56,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_HandleDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandle.handleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day08.*" />
+          <option name="PATTERN" value="tests.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day08" />
-      <option name="MAIN_CLASS_NAME" value="tests.day08.C02_HandleDropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.day11" />
+      <option name="MAIN_CLASS_NAME" value="tests.day11.C01_WindowHandle" />
+      <option name="METHOD_NAME" value="handleWindows" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_WindowHandle.handleWindows" />
         <item itemvalue="TestNG.C01_WindowHandle" />
         <item itemvalue="TestNG.C03_SoftAssertion" />
         <item itemvalue="TestNG.C02_SoftAssertion" />
         <item itemvalue="TestNG.C02_SoftAssertion.Test1" />
-        <item itemvalue="TestNG.C02_HandleDropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668967171802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenium Ders 11 - Window Handle">
+      <created>1669061632189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669061632190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +198,7 @@
     <MESSAGE value="Selenium Ders 8 - TestNG Priority" />
     <MESSAGE value="Selenium Ders 9 - Soft Assetion" />
     <MESSAGE value="Selenium Ders 9 - SoftAssert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 9 - SoftAssert" />
+    <MESSAGE value="Selenium Ders 11 - Window Handle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 11 - Window Handle" />
   </component>
 </project>
