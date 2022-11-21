@@ -26,12 +26,12 @@ public class C01_WindowHandle {
     public void handleWindows() throws InterruptedException {
         driver.get("https://www.amazon.com");
         String whAmazon = driver.getWindowHandle();
-        System.out.println("1st page WH value: " + whAmazon);
+        System.out.println("1st page WH Amazon: " + whAmazon);
 
         driver.switchTo().newWindow(WindowType.WINDOW); // yeni bir pencere açılır.
         driver.get("https://www.bestbuy.com");
         String whBestbuy = driver.getWindowHandle();
-        System.out.println("2nd page WH value: " + whBestbuy);
+        System.out.println("2nd page WH Best Buy: " + whBestbuy);
         Thread.sleep(3000);
 
         Set<String> handleValues = driver.getWindowHandles();
@@ -40,7 +40,7 @@ public class C01_WindowHandle {
         driver.switchTo().newWindow(WindowType.TAB);    // ilk açılan pencerede yeni bir sekme açılır.
         driver.get("https://www.facebook.com");
         String whFacebook = driver.getWindowHandle();
-        System.out.println("3rd page WH value: " + whFacebook);
+        System.out.println("3rd page WH Facebook: " + whFacebook);
 
         Thread.sleep(3000);
 
@@ -52,7 +52,7 @@ public class C01_WindowHandle {
         //bestbuy açıl olan sayfaya geçin ve title'ın bestbuy içerdiğini test edin.
         driver.switchTo().window(whBestbuy);
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Bestbuy"));
+        Assert.assertTrue(title.contains("Best Buy"));
 
         //facebookun açık olduğu sayfaya geçin ve url'in https://www.facebook.com olduğunu test edin.
         //eğer açık olan pencerelerden sadece bir tanesinin window handle değeri bilinmiyorsa önce tüm handle değerlerini bulup bir set'e koyarız.
@@ -61,11 +61,22 @@ public class C01_WindowHandle {
 
         // bu soru için şu anda set'te 3 window handle değeri var.
         // 1. ve 2/ sayfanın window handle değeri 3.sayfanın handle değeri olacaktır.
-        //setimizde olup, ilk iki sayfa olmaayan handle değeri
+        //setimizde olup, ilk iki sayfa olmayan handle değeri 3.sayfanın handle değeri olacaktır.
 
-        driver.switchTo().window(whFacebook);
-        String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.facebook.com");
+        whFacebook = "";
+
+        for (String each: handleValues){
+            if (!(each.equals(whAmazon) || each.equals(whBestbuy))){
+                whFacebook = each;
+            }
+        }
+
+        System.out.println(whFacebook);
+        System.out.println(handleValues);
+
+//        driver.switchTo().window(whFacebook);
+//        String url = driver.getCurrentUrl();
+//        Assert.assertEquals(url,"https://www.facebook.com");
 
 
 
