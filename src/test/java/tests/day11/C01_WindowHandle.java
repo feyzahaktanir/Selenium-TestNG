@@ -55,9 +55,19 @@ public class C01_WindowHandle {
         Assert.assertTrue(title.contains("Bestbuy"));
 
         //facebookun açık olduğu sayfaya geçin ve url'in https://www.facebook.com olduğunu test edin.
+        //eğer açık olan pencerelerden sadece bir tanesinin window handle değeri bilinmiyorsa önce tüm handle değerlerini bulup bir set'e koyarız.
+
+        handleValues = driver.getWindowHandles();
+
+        // bu soru için şu anda set'te 3 window handle değeri var.
+        // 1. ve 2/ sayfanın window handle değeri 3.sayfanın handle değeri olacaktır.
+        //setimizde olup, ilk iki sayfa olmaayan handle değeri
+
         driver.switchTo().window(whFacebook);
         String url = driver.getCurrentUrl();
         Assert.assertEquals(url,"https://www.facebook.com");
+
+
 
 
     }
