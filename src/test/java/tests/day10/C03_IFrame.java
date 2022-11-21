@@ -65,6 +65,6 @@ public class C03_IFrame {
     @AfterClass
     public void tearDown() throws InterruptedException {
         Thread.sleep(3000);
-        driver.close();
+        driver.quit();
     }
 }
