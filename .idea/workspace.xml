@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 10 - Alerts">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/C02_BasicAuthentication.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 10 - Basic Authentication">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/C03_IFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C02_BasicAuthentication">
+  <component name="RunManager" selected="TestNG.C03_IFrame.iframeTest">
     <configuration name="C01_Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -51,24 +51,6 @@
       <option name="PACKAGE_NAME" value="tests.day10" />
       <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Alerts" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Alerts.acceptAllert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Alerts" />
-      <option name="METHOD_NAME" value="acceptAllert" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,17 +92,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_IFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C03_SoftAssertion" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_IFrame" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_IFrame.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_IFrame" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_IFrame.iframeTest" />
+        <item itemvalue="TestNG.C03_IFrame" />
         <item itemvalue="TestNG.C02_BasicAuthentication" />
         <item itemvalue="TestNG.C01_Alerts.sendKeysAlert" />
         <item itemvalue="TestNG.C01_Alerts" />
-        <item itemvalue="TestNG.C01_Alerts.acceptAllert" />
-        <item itemvalue="TestNG.C03_SoftAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669019556206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium Ders 10 - Basic Authentication">
+      <created>1669021269840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669021269840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +207,7 @@
     <MESSAGE value="Selenium Ders 9 - Soft Assetion" />
     <MESSAGE value="Selenium Ders 9 - SoftAssert" />
     <MESSAGE value="Selenium Ders 10 - Alerts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 10 - Alerts" />
+    <MESSAGE value="Selenium Ders 10 - Basic Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 10 - Basic Authentication" />
   </component>
 </project>
