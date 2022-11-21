@@ -53,6 +53,11 @@ public class C03_IFrame {
         softAssert.assertTrue(elemental.isEnabled());
         System.out.println("elemental = " + elemental.getText());
 
+        //sponsored yazısı yeni sayfada olduğundan ve driver eski sayfada kaldığından yazıyı locate edemedik.
+        elemental.click();
+        WebElement newpageTitle = driver.findElement(By.xpath("//p[text()='Sponsored by ']"));
+        softAssert.assertTrue(newpageTitle.isDisplayed(),"Sponsored yazısı gözükmüyor.");
+
         softAssert.assertAll();
     }
 
