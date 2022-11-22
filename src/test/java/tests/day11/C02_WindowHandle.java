@@ -85,6 +85,7 @@ public class C02_WindowHandle {
 
         softAssert.assertEquals(actualTitle2,expectedTitle2, "Title yazısı yanlıştır.");
 
+        softAssert.assertAll();
     }
 
     @AfterClass
