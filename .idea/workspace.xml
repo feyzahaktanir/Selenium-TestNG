@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 11 - Window Handle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11/C02_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11/C03_TestBaseİlkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C02_WindowHandle">
+  <component name="RunManager" selected="TestNG.C03_TestBaseİlkTest">
     <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -110,16 +111,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_TestBaseİlkTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C03_SoftAssertion" />
+      <option name="PACKAGE_NAME" value="tests.day11" />
+      <option name="MAIN_CLASS_NAME" value="tests.day11.C03_TestBaseİlkTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_TestBaseİlkTest" />
         <item itemvalue="TestNG.C02_WindowHandle" />
         <item itemvalue="TestNG.C02_WindowHandle.handleWindow" />
         <item itemvalue="TestNG.C01_WindowHandle.handleWindows" />
         <item itemvalue="TestNG.C01_WindowHandle" />
-        <item itemvalue="TestNG.C03_SoftAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669061632190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium Ders 11 - Window Handle">
+      <created>1669104177506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104177506</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Selenium Ders 11 - Window Handle">
+      <created>1669104229311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104229311</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
