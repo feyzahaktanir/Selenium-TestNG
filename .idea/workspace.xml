@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 11 - Window Handle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/C01_ExplicitlyWait.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 14 - Explicitly Wait">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/C02_Faker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C01_ExplicitlyWait.explicitWait">
+  <component name="RunManager" selected="TestNG.C02_Faker.facebookKayitTesti">
     <configuration name="C01_ExplicitlyWait.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -77,23 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day11" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11.C01_WindowHandle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C01_WindowHandle.handleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -112,17 +95,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Faker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C03_SoftAssertion" />
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.C02_Faker" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Faker.facebookKayitTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.C02_Faker" />
+      <option name="METHOD_NAME" value="facebookKayitTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_Faker.facebookKayitTesti" />
+        <item itemvalue="TestNG.C02_Faker" />
         <item itemvalue="TestNG.C01_ExplicitlyWait.explicitWait" />
         <item itemvalue="TestNG.C01_ExplicitlyWait.implicitWait" />
         <item itemvalue="TestNG.C01_WindowHandle.handleWindows" />
-        <item itemvalue="TestNG.C01_WindowHandle" />
-        <item itemvalue="TestNG.C03_SoftAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669061632190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium Ders 14 - Explicitly Wait">
+      <created>1669142639616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669142639616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +210,7 @@
     <MESSAGE value="Selenium Ders 9 - Soft Assetion" />
     <MESSAGE value="Selenium Ders 9 - SoftAssert" />
     <MESSAGE value="Selenium Ders 11 - Window Handle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 11 - Window Handle" />
+    <MESSAGE value="Selenium Ders 14 - Explicitly Wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 14 - Explicitly Wait" />
   </component>
 </project>
