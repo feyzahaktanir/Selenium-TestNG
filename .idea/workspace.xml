@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 13 - File Download">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/C05_FileUpload.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 13 - File Upload">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/C06_Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/C07_ExplicitlyWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,42 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C05_FileUpload">
-    <configuration name="C02_FileExist.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C02_FileExist" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FileExistTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C03_FileExistTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C06_Synchronization.test1">
     <configuration name="C04_FileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -127,13 +93,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C06_Synchronization" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C06_Synchronization" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_Synchronization.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C06_Synchronization" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C06_Synchronization.test1" />
+        <item itemvalue="TestNG.C06_Synchronization" />
         <item itemvalue="TestNG.C05_FileUpload" />
         <item itemvalue="TestNG.C04_FileDownload" />
         <item itemvalue="TestNG.C04_FileDownload.downloadTest" />
-        <item itemvalue="TestNG.C03_FileExistTest" />
-        <item itemvalue="TestNG.C02_FileExist.test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669122365341</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Selenium Ders 13 - File Upload">
+      <created>1669123369245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669123369245</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +277,7 @@
     <MESSAGE value="Selenium Ders 13 - Keyboard Actions" />
     <MESSAGE value="Selenium Ders 13 - File Exist" />
     <MESSAGE value="Selenium Ders 13 - File Download" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 13 - File Download" />
+    <MESSAGE value="Selenium Ders 13 - File Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 13 - File Upload" />
   </component>
 </project>
