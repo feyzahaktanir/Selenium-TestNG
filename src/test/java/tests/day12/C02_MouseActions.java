@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import utilities.TestBase;
 
 import javax.swing.*;
@@ -29,7 +30,11 @@ public class C02_MouseActions extends TestBase {
         action.click(createList).perform();
 
         // ve new list sayfasının açıldığını test edin
-        Assert.assertTrue(driver.findElement(By.className("al-intro-banner-header")).isDisplayed());
+//        SoftAssert softAssert = new SoftAssert(); //Assertion class'ında ve static değil
+//        softAssert.assertTrue(driver.findElement(By.className("al-intro-banner-header")).isDisplayed());
+//        softAssert.assertAll();
+
+        Assert.assertTrue(driver.findElement(By.className("al-intro-banner-header")).isDisplayed()); //Assert class'ında ve static
     }
 
 }
