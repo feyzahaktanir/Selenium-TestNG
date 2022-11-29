@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 15 - Screenshot">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C04_JsExecuter.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 15 - JS Executer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C05_JsExecuter_ScrollIntoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C05_JsExecuter_ScrollIntoView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,58 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C04_JsExecuter_Click.test1">
-    <configuration name="C01_Screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_Screenshot" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ScreenshotWebelement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_ScreenshotWebelement" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_ScreenshotFile" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.TestNGBatch44" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenshotFile" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C05_JsExecuter_ScrollIntoView.scrollAction">
     <configuration name="C03_ScreenshotFile.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -128,13 +77,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05_JsExecuter_ScrollIntoView" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_JsExecuter_ScrollIntoView" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_JsExecuter_ScrollIntoView.scrollAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_JsExecuter_ScrollIntoView" />
+      <option name="METHOD_NAME" value="scrollAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_JsExecuter_ScrollIntoView.scrollJsExecuter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNGBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_JsExecuter_ScrollIntoView" />
+      <option name="METHOD_NAME" value="scrollJsExecuter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C05_JsExecuter_ScrollIntoView.scrollAction" />
+        <item itemvalue="TestNG.C05_JsExecuter_ScrollIntoView.scrollJsExecuter" />
+        <item itemvalue="TestNG.C05_JsExecuter_ScrollIntoView" />
         <item itemvalue="TestNG.C04_JsExecuter_Click.test1" />
         <item itemvalue="TestNG.C03_ScreenshotFile.test1" />
-        <item itemvalue="TestNG.C03_ScreenshotFile" />
-        <item itemvalue="TestNG.C02_ScreenshotWebelement" />
-        <item itemvalue="TestNG.C01_Screenshot" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669724701158</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Selenium Ders 15 - JS Executer">
+      <created>1669726026633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669726026633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +309,7 @@
     <MESSAGE value="Selenium Ders 13 - File Download" />
     <MESSAGE value="Selenium Ders 13 - File Upload" />
     <MESSAGE value="Selenium Ders 15 - Screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 15 - Screenshot" />
+    <MESSAGE value="Selenium Ders 15 - JS Executer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 15 - JS Executer" />
   </component>
 </project>
