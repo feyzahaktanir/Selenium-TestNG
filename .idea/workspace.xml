@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 14 - Cookies Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/C04_Screenshot.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 13 - Explicitly Wait">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C01_Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C02_ScreenshotWebelement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,90 +40,86 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C04_Screenshot.ssTest (1)">
-    <configuration name="C02_Faker.facebookKayitTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_Screenshot">
+    <configuration name="C01_Screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C02_Faker" />
-      <option name="METHOD_NAME" value="facebookKayitTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_Screenshot" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Cookies.cookieTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_FileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C03_Cookies" />
-      <option name="METHOD_NAME" value="cookieTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Cookies.cookieTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_FileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C03_Cookies" />
-      <option name="METHOD_NAME" value="cookieTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C05_FileUpload" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Screenshot.ssTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C06_Synchronization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C04_Screenshot" />
-      <option name="METHOD_NAME" value="ssTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C06_Synchronization" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Screenshot.ssTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C06_Synchronization.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C04_Screenshot" />
-      <option name="METHOD_NAME" value="ssTest" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C06_Synchronization" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C04_Screenshot.ssTest (1)" />
-        <item itemvalue="TestNG.C04_Screenshot.ssTest" />
-        <item itemvalue="TestNG.C03_Cookies.cookieTest" />
-        <item itemvalue="TestNG.C03_Cookies.cookieTest (1)" />
-        <item itemvalue="TestNG.C02_Faker.facebookKayitTesti" />
+        <item itemvalue="TestNG.C01_Screenshot" />
+        <item itemvalue="TestNG.C06_Synchronization.test1" />
+        <item itemvalue="TestNG.C06_Synchronization" />
+        <item itemvalue="TestNG.C05_FileUpload" />
+        <item itemvalue="TestNG.C04_FileDownload" />
       </list>
     </recent_temporary>
   </component>
@@ -184,28 +181,77 @@
       <option name="project" value="LOCAL" />
       <updated>1669061632190</updated>
     </task>
-    <task id="LOCAL-00006" summary="Selenium Ders 14 - Explicitly Wait">
-      <created>1669142639616</created>
+    <task id="LOCAL-00006" summary="Selenium Ders 11 - Window Handle">
+      <created>1669104177506</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1669142639616</updated>
+      <updated>1669104177506</updated>
     </task>
-    <task id="LOCAL-00007" summary="Selenium Ders 14 - Faker">
-      <created>1669145002789</created>
+    <task id="LOCAL-00007" summary="Selenium Ders 11 - Window Handle">
+      <created>1669104229311</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1669145002789</updated>
+      <updated>1669104229311</updated>
     </task>
-    <task id="LOCAL-00008" summary="Selenium Ders 14 - Cookies Test">
-      <created>1669669061333</created>
+    <task id="LOCAL-00008" summary="Selenium Ders 11 - TestBase Extends Method">
+      <created>1669104811936</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1669669061333</updated>
+      <updated>1669104811936</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Selenium Ders 12 - TestBase Abstract Method">
+      <created>1669107186927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669107186927</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Selenium Ders 12 - Mouse Actions">
+      <created>1669110578098</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669110578098</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Selenium Ders 12 - Mouse Actions">
+      <created>1669112270964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669112270964</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Selenium Ders 13 - Keyboard Actions">
+      <created>1669116273443</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669116273443</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Selenium Ders 13 - File Exist">
+      <created>1669117574686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669117574686</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Selenium Ders 13 - File Download">
+      <created>1669122365341</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669122365341</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Selenium Ders 13 - File Upload">
+      <created>1669123369245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669123369245</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,9 +270,13 @@
     <MESSAGE value="Selenium Ders 9 - Soft Assetion" />
     <MESSAGE value="Selenium Ders 9 - SoftAssert" />
     <MESSAGE value="Selenium Ders 11 - Window Handle" />
-    <MESSAGE value="Selenium Ders 14 - Explicitly Wait" />
-    <MESSAGE value="Selenium Ders 14 - Faker" />
-    <MESSAGE value="Selenium Ders 14 - Cookies Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 14 - Cookies Test" />
+    <MESSAGE value="Selenium Ders 11 - TestBase Extends Method" />
+    <MESSAGE value="Selenium Ders 12 - TestBase Abstract Method" />
+    <MESSAGE value="Selenium Ders 12 - Mouse Actions" />
+    <MESSAGE value="Selenium Ders 13 - Keyboard Actions" />
+    <MESSAGE value="Selenium Ders 13 - File Exist" />
+    <MESSAGE value="Selenium Ders 13 - File Download" />
+    <MESSAGE value="Selenium Ders 13 - File Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 13 - File Upload" />
   </component>
 </project>
