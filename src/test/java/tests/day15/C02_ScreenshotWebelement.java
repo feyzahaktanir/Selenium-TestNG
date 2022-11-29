@@ -27,13 +27,13 @@ public class C02_ScreenshotWebelement extends TestBase {
         //testin çalıştığının ispatı için tüm sayfanın ss'ini alalım
 
         //tüm sayfa ss için 4 adım gerekli
-        //1. TakeScreenshot objesi oluşturma
-        TakesScreenshot tss =(TakesScreenshot) driver;
-        //2. kaydedeceğimiz dosyayı oluşturalım
-        File allpageSS = new File("SS/allpage.png");
+        //1. SS çekeceğimiz webelementi locate edelim
+            //yukarıda ettik
+        //2. SS kaydedeceğimiz bir File oluşturalım
+        File webElementSS = new File("SS/webelementSS.jpeg");
         //3. bir dosya daha oluşturup ss objesi ile ss alalım
-        File gecici = tss.getScreenshotAs(OutputType.FILE);
+        File gecici = resultText.getScreenshotAs(OutputType.FILE);
         //4. gecici resmi kaydetmek istediğimiz asıl dosyaya copy yapalım
-        FileUtils.copyFile(gecici,allpageSS);
+        FileUtils.copyFile(gecici,webElementSS);
     }
 }
