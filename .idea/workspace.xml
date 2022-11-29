@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 13 - Explicitly Wait">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C01_Screenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C02_ScreenshotWebelement.java" afterDir="false" />
+    <list default="true" id="6d6eb07f-4286-40be-9004-eca32651663f" name="Changes" comment="Selenium Ders 15 - Screenshot">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C03_ScreenshotFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C02_ScreenshotWebelement">
+  <component name="RunManager" selected="TestNG.C03_ScreenshotFile.test1">
     <configuration name="C01_Screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
@@ -75,16 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_FileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ScreenshotFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C05_FileUpload" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenshotFile" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,17 +92,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_Synchronization" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ScreenshotFile.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNGBatch44" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C06_Synchronization" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenshotFile" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_ScreenshotFile.test1" />
+        <item itemvalue="TestNG.C03_ScreenshotFile" />
         <item itemvalue="TestNG.C02_ScreenshotWebelement" />
         <item itemvalue="TestNG.C01_Screenshot" />
         <item itemvalue="TestNG.C06_Synchronization.test1" />
-        <item itemvalue="TestNG.C06_Synchronization" />
-        <item itemvalue="TestNG.C05_FileUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669123369245</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Selenium Ders 15 - Screenshot">
+      <created>1669722061642</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722061643</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Selenium Ders 15 - Screenshot">
+      <created>1669722321247</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722321247</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +292,7 @@
     <MESSAGE value="Selenium Ders 13 - File Exist" />
     <MESSAGE value="Selenium Ders 13 - File Download" />
     <MESSAGE value="Selenium Ders 13 - File Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 13 - File Upload" />
+    <MESSAGE value="Selenium Ders 15 - Screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 15 - Screenshot" />
   </component>
 </project>
